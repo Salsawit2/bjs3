@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P>click the button to evalute/execute js</P>
+    <button onclick="myfunction()">try it</button>
+    <p id="result"></p>
+    <script>
+        function myfunction() {
+            var x = 10;
+            var y =12;
+            var a = eval("x+y") + "<br>";
+            var b = eval("2*2")  + "<br>";
+            var c = eval("y-x")  + "<br>";
+var c= eval("y-x")
+var res= a+b+c;
+//concatentas the string
+document.getElementById("result").innerHTML= res;
+        }
+        var num1 = 15
+        var num2= 20
+        document.write(num1+num2);
+        document.write("<br>")
+       var numb3= 22
+       var numb4= 30
+       document.write(numb3+numb4)
+    document.write(typeof(numb3))
+    </script>
+</body>
+</html>
